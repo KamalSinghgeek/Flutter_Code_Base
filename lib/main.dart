@@ -19,6 +19,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Flutter App'),
         centerTitle: true,
+        backgroundColor: Colors.red,
       ),
       body: Center(
         child: Text('Hey Kamal🔥🔥💪'),
