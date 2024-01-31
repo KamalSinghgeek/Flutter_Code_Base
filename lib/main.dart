@@ -22,7 +22,16 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
       body: Center(
-        child: Text('Hey Kamal🔥🔥💪'),
+        child: Text(
+            'Hey Kamal🔥🔥💪',
+        style:TextStyle(
+          fontSize:30,
+          fontWeight: FontWeight.bold,
+          color:Colors.blue,
+          letterSpacing: 10,
+          fontFamily: 'IndieFlower',
+        ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
