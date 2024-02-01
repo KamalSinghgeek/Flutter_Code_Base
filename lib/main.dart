@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -22,15 +21,8 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.red,
       ),
       body: Center(
-        child: Text(
-            'Hey Kamal🔥🔥💪',
-        style:TextStyle(
-          fontSize:30,
-          fontWeight: FontWeight.bold,
-          color:Colors.blue,
-          letterSpacing: 10,
-          fontFamily: 'IndieFlower',
-        ),
+        child: Image(
+          image:NetworkImage('https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=500'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -43,3 +35,5 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
+
+
