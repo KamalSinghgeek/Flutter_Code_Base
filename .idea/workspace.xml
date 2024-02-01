@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b3d81a-278b-4b23-a432-dbe80d2f19da" name="Changes" comment="Add Images from Assets(Local Folder)">
+    <list default="true" id="50b3d81a-278b-4b23-a432-dbe80d2f19da" name="Changes" comment="Add Icon and it's properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706811589031</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Icon and it's properties">
+      <option name="closed" value="true" />
+      <created>1706816570076</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706816570076</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +175,7 @@
     <MESSAGE value="Body Text Color Setup and Custom Font setup by making changes in pubspec.yaml(Google Font setup in Android App)" />
     <MESSAGE value="Add Image" />
     <MESSAGE value="Add Images from Assets(Local Folder)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Images from Assets(Local Folder)" />
+    <MESSAGE value="Add Icon and it's properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Icon and it's properties" />
   </component>
 </project>

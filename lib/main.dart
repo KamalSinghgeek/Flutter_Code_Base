@@ -21,21 +21,24 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Icon(
-          Icons.account_balance,
-          size: 100,
-          color: Colors.black,
-        )
+        child: TextButton(
+          onPressed: () {
+            // Add your onPressed functionality here
+            print('You clicked me');
+          },
+          style: TextButton.styleFrom(
+            backgroundColor: Colors.blueAccent, // Set the color here
+          ),
+          child: Text('You clicked me', style: TextStyle(color: Colors.white)),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           // Add your onPressed functionality here
         },
         tooltip: 'Click',
-        child: Icon(Icons.add), // You can use any icon you want
+        child: Icon(Icons.add),
       ),
     );
   }
 }
-
-
