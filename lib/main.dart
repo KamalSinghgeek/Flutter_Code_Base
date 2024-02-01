@@ -22,7 +22,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image:NetworkImage('https://images.pexels.com/photos/3052361/pexels-photo-3052361.jpeg?auto=compress&cs=tinysrgb&w=500'),
+            image:AssetImage('assets/Image-2.jpg'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
