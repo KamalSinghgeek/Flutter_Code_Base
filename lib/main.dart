@@ -18,11 +18,18 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Flutter App'),
         centerTitle: true,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Image(
-            image:AssetImage('assets/Image-2.jpg'),
+        child: TextButton(
+          onPressed: () {
+            // Add your onPressed functionality here
+            print('You clicked me');
+          },
+          style: TextButton.styleFrom(
+            backgroundColor: Colors.blueAccent, // Set the color here
+          ),
+          child: Text('You clicked me', style: TextStyle(color: Colors.white)),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -30,10 +37,8 @@ class MyHomePage extends StatelessWidget {
           // Add your onPressed functionality here
         },
         tooltip: 'Click',
-        child: Icon(Icons.add), // You can use any icon you want
+        child: Icon(Icons.add),
       ),
     );
   }
 }
-
-
