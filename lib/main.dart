@@ -18,12 +18,14 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Flutter App'),
         centerTitle: true,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Image(
-            image:AssetImage('assets/Image-2.jpg'),
-        ),
+        child: Icon(
+          Icons.account_balance,
+          size: 100,
+          color: Colors.black,
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
