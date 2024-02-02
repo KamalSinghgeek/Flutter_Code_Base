@@ -21,15 +21,11 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: TextButton(
-          onPressed: () {
-            // Add your onPressed functionality here
-            print('You clicked me');
-          },
-          style: TextButton.styleFrom(
-            backgroundColor: Colors.blueAccent, // Set the color here
-          ),
-          child: Text('You clicked me', style: TextStyle(color: Colors.white)),
+        child:Container(
+          child:Text('Hey Kamal !🚀😊'),
+          color:Colors.brown[300],
+          padding:EdgeInsets.all(30),
+          margin:EdgeInsets.all(60),
         ),
       ),
       floatingActionButton: FloatingActionButton(
