@@ -21,11 +21,9 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child:Container(
+        child:Padding(
           child:Text('Hey Kamal !🚀😊'),
-          color:Colors.brown[300],
           padding:EdgeInsets.all(30),
-          margin:EdgeInsets.all(60),
         ),
       ),
       floatingActionButton: FloatingActionButton(
