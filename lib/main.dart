@@ -21,9 +21,24 @@ class MyHomePage extends StatelessWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child:Padding(
-          child:Text('Hey Kamal !🚀😊'),
-          padding:EdgeInsets.all(30),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: <Widget>[
+            Text('Hey Kamal🥳'),
+            TextButton(
+              onPressed: () {},
+              style: TextButton.styleFrom(
+                backgroundColor: Colors.blueAccent,
+              ),
+              child: Text('Kamal🚀💪', style: TextStyle(color: Colors.white)),
+            ),
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Text('Contaier'),
+              color: Colors.blueAccent,
+            ),
+          ],
         ),
       ),
       floatingActionButton: FloatingActionButton(
