@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50b3d81a-278b-4b23-a432-dbe80d2f19da" name="Changes" comment="Padding">
+    <list default="true" id="50b3d81a-278b-4b23-a432-dbe80d2f19da" name="Changes" comment="Row Widget (to contain all widgets together.)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
     </list>
@@ -166,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706891186345</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Row Widget (to contain all widgets together.)">
+      <option name="closed" value="true" />
+      <created>1706895831690</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706895831690</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +211,7 @@
     <MESSAGE value="Text Button and it's properties" />
     <MESSAGE value="Container(It is used for Padding + Margin)" />
     <MESSAGE value="Padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Padding" />
+    <MESSAGE value="Row Widget (to contain all widgets together.)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Row Widget (to contain all widgets together.)" />
   </component>
 </project>
