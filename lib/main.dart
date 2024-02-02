@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -19,18 +18,14 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('My Flutter App'),
         centerTitle: true,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blueAccent,
       ),
       body: Center(
-        child: Text(
-            'Hey Kamal🔥🔥💪',
-        style:TextStyle(
-          fontSize:30,
-          fontWeight: FontWeight.bold,
-          color:Colors.blue,
-          letterSpacing: 10,
-          fontFamily: 'IndieFlower',
-        ),
+        child:Container(
+          child:Text('Hey Kamal !🚀😊'),
+          color:Colors.brown[300],
+          padding:EdgeInsets.all(30),
+          margin:EdgeInsets.all(60),
         ),
       ),
       floatingActionButton: FloatingActionButton(
@@ -38,7 +33,7 @@ class MyHomePage extends StatelessWidget {
           // Add your onPressed functionality here
         },
         tooltip: 'Click',
-        child: Icon(Icons.add), // You can use any icon you want
+        child: Icon(Icons.add),
       ),
     );
   }
